@@ -1,0 +1,15 @@
+[workspace]
+
+members = [
+    "gen_crate_core",
+    "schema",
+]
+
+resolver="2"
+
+[workspace.dependencies]
+flatbuffers = "=24.3.25"
+schema = { path = "schema" }
+
+[workspace.build-dependencies]
+flatbuffers-build = "0.2.0" # +flatc-24.3.25

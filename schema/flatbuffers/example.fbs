@@ -1,0 +1,6 @@
+namespace ExampleTypes.NestedNamespace;
+
+table HelloFlatBuffersTable {
+    greeting: string;
+    object: string;
+}
